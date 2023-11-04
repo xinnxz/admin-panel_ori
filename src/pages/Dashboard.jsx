@@ -4,7 +4,6 @@ import TransactionChart from '../components/TransactionChart'
 import RecentOrders from '../components/RecentOrders'
 import BuyerProfilePieChart from '../components/BuyerProfilePieChart'
 import PopularProducts from '../components/PopularProducts'
-import Footer from '../components/shared/Footer'
 
 export default function Dashboard() {
 	return (
@@ -18,7 +17,6 @@ export default function Dashboard() {
 				<RecentOrders />
 				<PopularProducts />
 			</div>
-			<Footer />
 		</div>
 	)
 }
