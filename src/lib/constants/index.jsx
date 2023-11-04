@@ -17,32 +17,32 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 		icon: <HiOutlineViewGrid />
 	},
 	{
-		key: 'products',
-		label: 'Products',
+		key: 'Produk',
+		label: 'Produk',
 		path: '/products',
 		icon: <HiOutlineCube />
 	},
 	{
-		key: 'orders',
-		label: 'Orders',
+		key: 'Pesanan',
+		label: 'Pesanan',
 		path: '/orders',
 		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'customers',
-		label: 'Customers',
+		key: 'Pelanggan',
+		label: 'Pelanggan',
 		path: '/customers',
 		icon: <HiOutlineUsers />
 	},
 	{
-		key: 'transactions',
-		label: 'Transactions',
+		key: 'Transaksi',
+		label: 'Transaksi',
 		path: '/transactions',
 		icon: <HiOutlineDocumentText />
 	},
 	{
-		key: 'messages',
-		label: 'Messages',
+		key: 'Inbox',
+		label: 'Inbox',
 		path: '/messages',
 		icon: <HiOutlineAnnotation />
 	}
@@ -50,14 +50,14 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
 	{
-		key: 'settings',
-		label: 'Settings',
+		key: 'Pengaturan',
+		label: 'Pengaturan',
 		path: '/settings',
 		icon: <HiOutlineCog />
 	},
 	{
-		key: 'support',
-		label: 'Help & Support',
+		key: 'bantuan',
+		label: 'Bantuan',
 		path: '/support',
 		icon: <HiOutlineQuestionMarkCircle />
 	}
